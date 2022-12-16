@@ -3,6 +3,6 @@ class Constants {
   static const code = "code_pearl_06\$\$12\$\$2021";
   static const pageUrl =
       "https://development.pearl-developer.com/webapps/welcome/app_info";
-  static const erpName = "Harwinder(Digital Marketing Transformation)";
-  static const appName = "Harwinder";
+  static const erpName = "Iraq Political";
+  static const appName = "Iraq Political";
 }

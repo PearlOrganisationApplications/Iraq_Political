@@ -1,7 +1,6 @@
 import 'dart:async';
 import 'dart:io';
 
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:get/get_navigation/src/root/get_material_app.dart';
@@ -41,12 +40,12 @@ class MyApp extends StatelessWidget {
     return GetMaterialApp(
         // color: Colors.white,
         debugShowCheckedModeBanner: false,
-        title: "Travel The Paradise",
+        title: "Iraq Political",
         theme: ThemeData(
           primarySwatch: Colors.blue,
         ),
         home: HomePage(
-          title: "Travel The Paradise",
+          title: "Iraq Political",
           connectedornot: connectedornot,
         )
         //     AnimatedSplashScreen(
@@ -125,8 +124,9 @@ class _WebViewAppState extends State<WebViewApp> {
                           .then((value) => _controller = value);
                       _controllerCompleter.complete(webViewController);
                     },
-                    initialUrl: "https://iraqipoliticalaffair.com",
-                    // snapshot.data!.message[0].appLink,
+                    initialUrl:   snapshot.data!.message[0].appLink,
+                    // "https://iraqipoliticalaffair.com",
+
                     javascriptMode: JavascriptMode.unrestricted,
                   )
                       // WebViewPage(
